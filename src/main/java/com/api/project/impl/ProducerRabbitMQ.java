@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Value;
 import com.api.project.amqp.AmqpProducer;
 import com.api.project.model.Message;
 
-public class ProducerRabbitMQ implements AmqpProducer<Message>{
+public class ProducerRabbitMQ implements AmqpProducer<Message> {
 
 	@Autowired
 	private RabbitTemplate rabbitTemplate;
